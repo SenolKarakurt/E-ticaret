@@ -1,0 +1,913 @@
+body {
+	background-color:#fff;
+	margin-bottom:10px;
+}
+/*
+code for table centering
+*/
+
+.centre 
+{
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+}
+
+p{
+margin-top:0;
+margin-bottom:10px;
+}
+p.products, .home_copy, .p_general{
+margin-top:0;
+margin-bottom:0px;
+}
+p.indent{
+margin-top:0px;
+margin-bottom:0px;
+text-indent:15px;
+}
+
+p.padding{
+padding-left:10px;
+padding-right:10px;
+}
+p.padding_blog{
+padding:10px;
+background-image:url(box.gif);
+background-repeat:repeat-x;
+}
+p.delivery, .contact
+{
+margin-top:0;
+margin-bottom:10px;
+padding-left:10px;
+padding-right:5px;
+}
+
+
+u.flooring{
+text-decoration:none;
+}
+
+strong.floor{
+font-weight:normal;
+}
+
+i.floors{
+font-style:normal;
+}
+
+
+img.block {
+display:block; 
+}
+
+.textmiddle {
+vertical-align:middle;
+} 
+
+
+.wrap{
+float: left; 
+padding: 2px 10px 0px 0px;
+}
+h1 {
+display: inline;
+font-family:arial;
+font-size:14px;
+font-weight:normal;
+}
+
+h2{
+display: inline;
+font-family:arial;
+font-size:14px;
+font-weight:normal;
+}
+
+h3{
+display: inline;
+}
+
+.border {
+	BACKGROUND-COLOR: #ffffff
+}
+
+/*------------------------------------------
+links rules*/
+
+A.small_nav:link {
+	color: #236C94;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+}
+A.small_nav:visited {
+	color: #236C94;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+}
+A.small_nav:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CC3366;
+	text-decoration: underline;
+}
+A.cart_nav:link {
+	color: #236C94;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+A.cart_nav:visited {
+	color: #236C94;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+A.cart_nav:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #CC3366;
+	text-decoration: underline;
+}
+A.product:link {
+	color: #336666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+}
+A.product:visited {
+	color: #336666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+}
+A.product:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #336666;
+	text-decoration: underline;
+}
+
+
+A.main:link {
+	font-family: Arial;
+	font-size: 12px;
+	color: #236C94;
+	text-decoration: none;
+	font-weight: normal;
+}
+A.main:visited {
+	font-family: Arial;
+	font-size: 12px;
+	color: #236C94;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+A.main:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color: #236C94;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+A.pagination:link {
+	font-family: Arial;
+	font-size: 12px;
+	color: #990000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+A.pagination:visited {
+	font-family: Arial;
+	font-size: 12px;
+	color: #990000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+A.pagination:hover {
+	font-family: Arial;
+	font-size: 12px;
+	color: #990000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+A.cart:link {
+	font-family: Arial;
+	font-size: 11px;
+	color: #990000;
+	text-decoration: none;
+	font-weight: normal;
+}
+A.cart:visited {
+	font-family: Arial;
+	font-size: 11px;
+	color: #990000;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+A.cart:hover {
+	font-family: Arial;
+	font-size: 11px;
+	color: #990000;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+
+A.foot:link {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+A.foot:visited {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+A.foot:hover {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+A.nav:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FFFFFF; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none;
+}
+A.nav:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FFFFFF; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none;
+}
+A.nav:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #BBD2E0; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline;
+}
+/*mouse over box//////////////////////////////////////////////////////////////////////////*/
+a.info{
+position:relative;           /*this is the key*/
+z-index:24;
+color: #236C94;              /* colour of display text */
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+text-decoration: none;
+
+}
+a.info:hover {
+z-index:25;
+color: #236C94;              /* colour of display text */
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+text-decoration: underline;
+font-weight:bold;
+}
+a.info span{
+display: none;  /* hide the span text using this css */
+}
+a.info:hover span{ /*the span will display just on :hover state*/
+	display:block;
+	position:absolute;
+	top: 1.5em;
+	left: -10em;
+	width:25em;
+	border:1px solid #000000; /* border colour */
+	background-color:#FFC875; /* background colour here */
+	color: #000000;              /* colour of display text */
+	font-size: 12px;
+	text-decoration: none;
+	text-align:left;
+	padding:5px;
+	z-index:30;
+}
+
+a.del_info{
+position:relative;           /*this is the key*/
+z-index:24;
+color: #236C94;              /* colour of display text */
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+text-decoration: none;
+
+}
+a.del_info:hover {
+z-index:25;
+color: #236C94;              /* colour of display text */
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+text-decoration: underline;
+font-weight:bold;
+}
+a.del_info span{
+display: none;  /* hide the span text using this css */
+}
+a.del_info:hover span{ /*the span will display just on :hover state*/
+    display:block;
+	position:absolute;
+	top: 1.5em;
+	left: -11em;
+	width:25em;
+	border:1px solid #000000; /* border colour */
+	background-color:#FFC875; /* background colour here */
+	color: #000000;              /* colour of display text */
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:normal;
+	text-decoration: none;
+	text-align:left;
+	padding:5px;
+	z-index:30;
+}
+
+/*-------------------------------------------------------------------------------------------
+end of link rules
+*/
+
+.products_bg {
+	background-color: #C5C8C1;
+}
+
+
+.bg_table {
+	background-color: #333333;
+}
+
+.bg_header {
+	background-color: #444444;
+}
+.grey_table {
+	background-color: #EBEBEB;
+}
+.separator{
+   background-color: #75C8D0;
+}
+.homepage{
+padding-right:5px;
+}
+.homepage_heading{
+	font-family:"trebuchet MS", Verdana, sans-serif;
+	font-size:18px;
+	color:#6B6B6B;
+}
+
+.ts_sample_print{
+	font-family:"Trebuchet MS";
+	font-size:18px;
+	color:#000000;
+}
+
+.st_sample_print{
+	font-family:"Trebuchet MS";
+	font-size:18px;
+	color:#222;
+}
+
+.homepage_offer_heading{
+	font-family:"trebuchet MS", Verdana, sans-serif;
+	font-size:18px;
+	color:#838383;
+}
+
+.floorell {
+	LIST-STYLE-POSITION: outside; FONT: 12px Arial; LIST-STYLE-TYPE: disc; TEXT-DECORATION: none
+}
+
+/*----------------------------
+fonts*/
+
+.black_arial_16{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#000000;
+font-weight:bold;
+}
+.red_arial_10 {
+	font-family: Arial;
+	font-size: 10px;
+	color: #CC3366;
+	font-weight: bold;
+}
+.red_arial_11 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #CC3366;
+	font-weight: bold;
+}
+.green_arial_11 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #339900;
+	font-weight: bold;
+}
+.orange_arial_11 {
+	font-family: Arial;
+	font-size: 11px;
+	color: #FF6600;
+	font-weight: bold;
+}
+.red_arial_12 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #CC3366;
+	font-weight: normal;
+}
+.white_arial_12 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.bottom {
+	FONT-SIZE: 10px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+}
+
+.arial_10 {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+}
+.arial_11_bold {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bolder;
+}
+
+.tre_12 {
+	font-family: "Trebuchet MS";
+	;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.tre_tel {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.tre_product {
+	font-family: "Trebuchet MS";
+	;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.tre_9 {
+	font-family: "Trebuchet MS";
+	;
+	font-size: 9px;
+	font-weight: normal;
+}
+
+.nav {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.arial_14 {
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Arial;
+	font-weight: normal;
+	
+}
+
+.arial_12 {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial;
+	font-weight: normal;
+	
+}
+.lucida_9 {
+	FONT-SIZE: 9px;
+	font-family:"Lucida Sans Unicode";
+	font-weight: normal;
+}
+.lucida_11 {
+	FONT-SIZE: 11px;
+	font-family:"Lucida Sans Unicode";
+	font-weight: normal;
+}
+
+.lucida_12 {
+	FONT-SIZE: 12px;
+	font-family:"Lucida Sans Unicode";
+	font-weight: normal;
+}
+
+
+.price{
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+/*------------------------------------------------
+end of fonts
+*/
+
+
+/*---------------------------------------------------
+table attributes*/
+td.right_line {
+	border-right-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-color: #E1E3DF;
+	}
+td.left_right_line {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: #E1E3DF;
+	border-left-color: #E1E3DF;
+	}
+td#right_line {
+	border-right-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-color: #E1E3DF;
+	}
+
+table#padding{
+margin:10px;
+padding:5px;
+}
+td.about{
+padding-left:10px;
+padding-right:20px;
+}
+td.terms{
+padding-left:10px;
+padding-right:20px;
+}
+table#delivery, #blog, #email_form{
+	border-collapse: collapse;
+	border: 1px solid #d4d4d4;
+	}
+
+
+table.solid {
+	border-collapse: collapse;
+	
+	
+}
+tr.solid {
+	border-collapse: collapse;
+	border: 1px solid #d4d4d4;
+}
+table.line {
+	border-collapse: collapse;
+	border: 1px solid #d4d4d4;
+}
+
+table.border {
+	border-collapse: collapse;
+	border: 1px solid #d4d4d4;
+}
+
+td.scene{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #A4A4A4;
+}
+table#css {
+border-collapse: collapse;
+}
+td.blog{
+	border-collapse: collapse;
+	border: 1px solid #d4d4d4;
+}
+
+table#homepage_products{
+border-collapse: collapse;
+border: 1px solid #C5C8C1;
+}
+
+TD.padding_left_10{
+padding-left:10px;
+padding-top:10px;
+padding-right:5px;
+padding-bottom:10px;
+
+}
+TD#padding_left_10{
+padding-left:10px;
+padding-top:10px;
+padding-right:5px;
+padding-bottom:10px;
+}
+TD.padding_left_on{
+padding-left:10px;
+}
+
+TD.image_top{
+padding-top:10px;
+}
+
+TD#padding_sample, #padding_10{
+padding-left:10px;
+padding-top:10px;
+padding-right:10px;
+padding-bottom:10px;
+}
+TD.padding_sample, .padding_10{
+padding-left:10px;
+padding-top:10px;
+padding-right:10px;
+padding-bottom:10px;
+}
+
+
+TD#padding_enlarge{
+padding-left:10px;
+padding-top:5px;
+padding-right:10px;
+padding-bottom:5px;
+}
+TD.padding_enlarge{
+padding-left:10px;
+padding-top:5px;
+padding-right:10px;
+padding-bottom:5px;
+}
+
+TD.padding_right_10{
+padding-left:5px;
+padding-top:10px;
+padding-right:10px;
+padding-bottom:10px;
+}
+
+TD.padding_left_right{
+padding-left:10px;
+padding-right:10px;
+}
+
+TD.padding_5_10{
+padding-left:5px;
+padding-right:10px;
+}
+TD.padding_10_5{
+padding-left:10px;
+padding-right:5px;
+}
+
+TD.padding_nav{
+padding-left:10px;
+padding-top:10px;
+padding-right:5px;
+}
+
+TD.padding_cart{
+padding-top:10px;
+padding-right:10px;
+}
+
+TD.PaddingCartHomePage{
+padding-top:7px;
+padding-right:10px;
+padding-left:10px;
+padding-bottom:0px;
+}
+
+
+TD.product_info{
+padding-left:2px;
+padding-top:20px;
+padding-right:20px;
+}
+TD.product_main{
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+padding-bottom:10px;
+}
+TD.footer {
+padding-left:10px;
+padding-right:10px;
+padding-top:0px;
+padding-bottom:10px;
+}
+TD.blog_footer {
+padding-left:10px;
+padding-right:10px;
+padding-top:0px;
+padding-bottom:10px;
+}
+TD.padding_search {
+background-image:url(box.gif);
+background-repeat:repeat-x;
+}
+.text-indent{
+text-indent:18px;
+}
+
+TD.home_bg{
+	background-image:url(grad.gif);
+	background-repeat:repeat x;
+}
+
+
+TD#top_margin{
+padding-top:10px;
+
+}
+TD.top_margin{
+padding-top:10px;
+}
+
+#pricetable td{
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+
+table.backgroung_image{
+background-image:url(button1.gif);
+background-repeat:repeat;
+}
+
+td#dotted_right {
+	border-right-width: 1px;
+	border-top-style: none;
+	border-right-style: dashed;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-color: #C5C8C1;
+	}
+
+/*----------------------------------------------
+end of table attributes*/
+form{
+display: inline;
+}
+
+
+.formbutton{
+	cursor:pointer;
+	border:1px outset #ccc;
+	font-weight:bold;
+	background:url(go.gif);
+	background-repeat:repeat-x;
+	padding: 1px;
+}
+
+.submit_button{
+	cursor:pointer;
+	border:1px outset #ccc;
+	font-weight:bold;
+	background:url(submit.gif);
+	background-repeat:repeat-x;
+	padding: 1px;
+}
+
+.submit_button_2{
+	cursor:pointer;
+	border:1px outset #ccc;
+	font-weight:bold;
+	background:url(submit.gif);
+	background-repeat:repeat-x;
+	padding: 1px;
+	width:150px;
+}
+.style_button_1{
+	cursor:pointer;
+	border:1px outset #ccc;
+	font-weight:bold;
+	background:url(submit.gif);
+	background-repeat:repeat-x;
+	padding: 2px;
+	width:150px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+.style_button_2{
+	cursor:pointer;
+	border:1px outset #ccc;
+	font-weight:bold;
+	background:url(submit.gif);
+	background-repeat:repeat-x;
+	padding: 2px;
+	width:150px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+A.back_to:link {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+A.back_to:visited {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+A.back_to:hover {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.image_border {
+	border: 1px solid #CCCCCC;
+}
+img.highlight{
+border: 3px solid #FFFFFF;
+}
+/*----------------------------------------------
+
+image hovering for roomscene*/
+a.image_roomscene:hover{
+	color:#8A0000;
+}
+a.image_roomscene:link img, a.image_roomscene:visited img{
+border:2px solid white;
+}
+a.image_roomscene:focus img, a.image_roomscene:hover img{
+border:2px solid #CA0000;
+}
+/*----------------------------------------------
+
+image hovering for products*/
+a.image_hover:hover{
+	color:#CA0000;
+}
+a.image_hover:link img, a.image_hover:visited img{
+border:1px solid white;
+}
+a.image_hover:focus img, a.image_hover:hover img{
+border:1px solid #CA0000;
+}
+
+/*----------------------------------------------
+opacity*/
+.offer_items{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#ffffff;
+	font-weight:normal;
+}
+#image {
+	position:relative;
+	width:480px;
+	height:360px;
+	margin:0;
+}
+#text {
+  position:absolute;
+  top:0px;
+  left:0;
+  width:155px;
+  height:40px;
+  background:#fff;
+  padding:5px;
+}
+#text {
+	filter: alpha(opacity=70);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+	-moz-opacity: 0.60;
+	opacity:0.5;
+	background-color: #990000;
+}
+#words {
+	position:absolute;
+	top:10px;
+	left:0px;
+	width:200px;
+	height:10px;
+	background:transparent;
+	padding-left:10px;
+	padding-top:0px;
+}
