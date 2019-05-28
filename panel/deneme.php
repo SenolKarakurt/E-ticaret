@@ -3447,51 +3447,51 @@ if (isset($_SESSION["admin"]["username"])){
                             <div class="form-group">
                                 <label class="col-md-2 control-label">Location Name</label>
                                 <div class="col-md-4">
-                                    <input type="text" name="locationName2ad<?php echo $getAddress3["id"]; ?>" id="locationName2ad<?php echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<?php echo $getAddress3["addressname"]; ?>">
+                                    <input type="text" name="locationName2ad<? echo $getAddress3["id"]; ?>" id="locationName2ad<? echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<? echo $getAddress3["addressname"]; ?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-2 control-label">House</label>
                                 <div class="col-md-4">
-                                    <input type="text" name="house2ad<?php echo $getAddress3["id"]; ?>" id="house2ad<?php echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<?php echo $getAddress3["house"]; ?>">
+                                    <input type="text" name="house2ad<? echo $getAddress3["id"]; ?>" id="house2ad<? echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<? echo $getAddress3["house"]; ?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-2 control-label">Street</label>
                                 <div class="col-md-4">
-                                    <input type="text" name="street2ad<?php echo $getAddress3["id"]; ?>" id="street2ad<?php echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<?php echo $getAddress3["street"]; ?>">
+                                    <input type="text" name="street2ad<? echo $getAddress3["id"]; ?>" id="street2ad<? echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<? echo $getAddress3["street"]; ?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-2 control-label">City</label>
                                 <div class="col-md-4">
-                                    <input type="text" name="city2ad<?php echo $getAddress3["id"]; ?>" id="city2ad<?php echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<?php echo $getAddress3["city"]; ?>">
+                                    <input type="text" name="city2ad<? echo $getAddress3["id"]; ?>" id="city2ad<? echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<? echo $getAddress3["city"]; ?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-2 control-label">County</label>
                                 <div class="col-md-4">
-                                    <input type="text" name="county2ad<?php echo $getAddress3["id"]; ?>" id="county2ad<?php echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<?php echo $getAddress3["county"]; ?>">
+                                    <input type="text" name="county2ad<? echo $getAddress3["id"]; ?>" id="county2ad<? echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<? echo $getAddress3["county"]; ?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-2 control-label">Postcode</label>
                                 <div class="col-md-4">
-                                    <input type="text" name="postcode2ad<?php echo $getAddress3["id"]; ?>" id="postcode2ad<?php echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<?php echo $getAddress3["postcode"]; ?>">
+                                    <input type="text" name="postcode2ad<? echo $getAddress3["id"]; ?>" id="postcode2ad<? echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<? echo $getAddress3["postcode"]; ?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-2 control-label">Country</label>
                                 <div class="col-md-4">
-                                    <input type="text" name="country2ad<?php echo $getAddress3["id"]; ?>" id="country2ad<?php echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<?php echo $getAddress3["country"]; ?>">
+                                    <input type="text" name="country2ad<? echo $getAddress3["id"]; ?>" id="country2ad<? echo $getAddress3["id"]; ?>" class="form-control input-circle" value="<? echo $getAddress3["country"]; ?>">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-md-2 control-label">Is Main</label>
                                 <div class="col-md-2">
                                     <div class="md-checkbox" style="margin-top: 5px;">
-                                        <input type="checkbox" name="isMain2ad<?php echo $getAddress3["id"]; ?>" id="isMain2ad<?php echo $getAddress3["id"]; ?>" class="md-check" <?if($getAddress3["ismain"]=="1"){echo" checked";} ?> >
-                                        <label for="isMain2ad<?php echo $getAddress3["id"]; ?>">
+                                        <input type="checkbox" name="isMain2ad<? echo $getAddress3["id"]; ?>" id="isMain2ad<? echo $getAddress3["id"]; ?>" class="md-check" <?if($getAddress3["ismain"]=="1"){echo" checked";} ?> >
+                                        <label for="isMain2ad<? echo $getAddress3["id"]; ?>">
                                             <span class="inc"></span>
                                             <span class="check"></span>
                                             <span class="box"></span>
@@ -3502,9 +3502,9 @@ if (isset($_SESSION["admin"]["username"])){
                             <div class="form-group">
                                 <label class="col-md-2 control-label"></label>
                                 <div class="col-md-8">
-                                    <input type="hidden" id="addressID" name="addressID" value="<?php echo $getAddress3["id"]; ?>">
-                                    <button type="button" class="btn red" onclick="deleteAddress(<?php echo $getAddress3["id"]; ?>)"><i class="fa fa-trash"></i></button>
-                                    <button type="button" class="btn btn-success" onclick="updateAddress(<?php echo $getAddress3["id"]; ?>)">Update <b>"<?php echo $getAddress3["addressname"]; ?>"</b></button>
+                                    <input type="hidden" id="addressID" name="addressID" value="<? echo $getAddress3["id"]; ?>">
+                                    <button type="button" class="btn red" onclick="deleteAddress(<? echo $getAddress3["id"]; ?>)"><i class="fa fa-trash"></i></button>
+                                    <button type="button" class="btn btn-success" onclick="updateAddress(<? echo $getAddress3["id"]; ?>)">Update <b>"<? echo $getAddress3["addressname"]; ?>"</b></button>
 
                                 </div>
 
@@ -3517,7 +3517,7 @@ if (isset($_SESSION["admin"]["username"])){
                     </div>
                 </div>
             </div>
-            <?php
+            <?
         }
         elseif ($process == "deleteAddress"){
             $addressid = $_POST["addressid"];
@@ -10748,8 +10748,7 @@ else{
     if ($pg == "login"){
         if (isset($_POST["login_username"]) && isset($_POST["login_password"])){
             $login_username = strip_tags(trim($_POST["login_username"]));
-            //$login_password = md5(sha1(strip_tags(trim($_POST["login_password"]))));
-            $login_password = $_POST["login_password"];
+            $login_password = md5(sha1(strip_tags(trim($_POST["login_password"]))));
             $userSelect = $db->query("select * from panelusers where username='$login_username' and password='$login_password'");
 
             if ($userSelect->rowCount()){
@@ -10806,7 +10805,7 @@ function comboAdd($type,$menuname){
 
 function comboGet($comboType){
     ?>
-    <form action="" method="post" id="<?php echo $comboType; ?>Form">
+    <form action="" method="post" id="<? echo $comboType; ?>Form">
         <table class="table table-hover">
             <thead>
             <tr>
